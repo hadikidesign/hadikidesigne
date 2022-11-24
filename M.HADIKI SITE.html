@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <title>M.HDK Design</title>
+		<link rel=" icon" type="image/png" href="https://drive.google.com/uc?id=1woOLd4-L1BNQApMl3ZQvUxTnHateCiIL">
+
+	<style>
+	
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: #EB2CDB;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://scontent.frba3-1.fna.fbcdn.net/v/t39.30808-6/316530629_701142874774059_5278772540747362836_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEm1fnv2F_s5JIXf7bqPsAwEzS8kplC2wYTNLySmULbBozfDHlzNFZ84EiPDIiEavCiUCO5J59DoS0kuGPmUBqT&_nc_ohc=hAL1WRxRs9wAX9dJl_s&_nc_ht=scontent.frba3-1.fna&oh=00_AfB_QBhpbZqxGKYbB6US_wwO8GrM_F8mat8WYJuOPavfFw&oe=63802F69) no-repeat;
+    background-size: cover;
+    background-position: ;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color:white;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #EB2CDB;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.main h2 {
+   
+   
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #EB2CDB;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #FFFFEE;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #EB2CDB;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+	text-align: center;
+}
+.title3 {
+    display: flex;
+   
+    color: #EB2CDB;
+    
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 23.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #EB2CDB;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #aa76be;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: #17074D;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+   transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+ }
+
+.project-image img{
+    width: 100%
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #EB2CDB;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #EB2CDB;
+}
+
+.more-details:hover {
+    color: #601cfc;
+}
+
+.contact .icon{
+    font-size: 4.5em;
+}
+
+.contact .info h3 {
+    color: #000;
+}
+
+.contact .info p {
+    font-size: 1.5em;
+}
+
+.footer {
+    background-color: #17074D;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #EB2CDB;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 6px 0 0;
+}
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+   }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+	
+	
+	
+
+
+
+.nav {
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 27px;
+  color: #EB2CDB;
+  padding: 10px 10px 10px 10px;
+  font-weight: bold;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #EB2CDB;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #aa76be;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+	text-align: center;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(35vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  color: #444;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 80rem;
+}
+
+.cols{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col{
+	
+  width: calc(46% - 8rem);
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.container{
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	        perspective: 1000px;
+}
+
+.front,
+.back{
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+  border-radius: 10px;
+	background-position: center;
+	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden;
+	text-align: center;
+	min-height: 280px;
+	height: auto;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.back{
+  background: #cedce7;
+  background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+  background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+  background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+}
+
+.front:after{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    opacity: .6;
+    background-color: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-radius: 10px;
+}
+.container:hover .front,
+.container:hover .back{
+    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.inner{
+    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+            transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 50%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: 1px solid transparent;
+    -webkit-perspective: inherit;
+            perspective: inherit;
+    z-index: 2;
+}
+
+.container .back{
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.container .front{
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.container:hover .back{
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.container:hover .front{
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.front .inner p{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.front .inner p:after{
+  content: '';
+  width: 4rem;
+  height: 2px;
+  position: absolute;
+  background: #C6D4DF;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -.75rem;
+}
+
+.front .inner span{
+  color: rgba(255,255,255,0.7);
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+@media screen and (max-width: 64rem){
+  .col{
+    width: calc(33.333333% - 2rem);
+  }
+}
+
+@media screen and (max-width: 48rem){
+  .col{
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 32rem){
+  .col{
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+}
+.logoimg{
+width: 10%;
+position: relative;
+height: 38px;
+
+}
+	</style>
+	
+	
+</head>
+<body>
+
+    <header>
+
+      <img class="logoimg" src="https://drive.google.com/uc?id=1cexWlkysEcxsgoqlzJc37Q_ANFWYHOPK"></img>
+		<div class="nav"> 
+			
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+  
+    <div class="nav-title">
+	
+      M.HDK DESIGN
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+   
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    
+  </div>
+</div>
+		
+	
+	  
+	  
+	 
+	 
+	  
+	  
+    </header>
+
+
+    <section class="main">
+        <div>
+            <h2>Hi, I'm mohamed hadiki <br><span>graphic designer <br>and web developer</span></h2>
+           
+            <a href="#projects" class="main-btn">View my work</a>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/graphic.designer_hdk?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-icons"></i>
+                </div>
+                <div class="info">
+                    <h3>Logo & Brand Identity</h3>
+                    <p>I am professional and reputable logo designer,. I offer 100% original and conceptual logo design solutions for businesses of varying sizes.
+The logos will be the true representative of your business and match its nature and standard.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <div class="info">
+                    <h3>video editing</h3>
+                    <p>
+If you are looking for a professional video editor or content creator whose work is attractive, creative, unique and eye-catching for your Youtube Channel or for your daily requirement then you are at the right place.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                   <i class="fas fa-address-card"></i>
+                </div>
+                <div class="info">
+                    <h3>Business Cards & Stationery</h3>
+                    <p>
+Welcome to mohamed hadiki Design graphic, business card gig
+
+Are you looking for a professional & clean business card design in less time period? Well, then you are in right gig. My Business card design will be Unique, Professional, and elegant yet modern.</p>
+                </div>
+            </div>
+			 <div class="card">
+                <div class="icon">
+                   <i class="fas fa-solid fa-image"></i>
+                </div>
+                <div class="info">
+                    <h3>youtube thumbnail</h3>
+                    <p>The Clickbait Youtube thumbnail is used by all YouTubers to increase the number of clicks and views on their videos. Attractive thumbnails will bring in new viewers to your videos, and they can even compete with and outrank famous videos. So I'm here to help you create Amazing Clickbait Thumbnails for your channel that will boost your CTR (Click Through Rate), resulting in more views and higher ranks.</p>
+  </div>
+            </div>
+			 <div class="card">
+                <div class="icon">
+				<i class="fas fa-film"></i>
+                 
+                </div>
+                <div class="info">
+                    <h3>youtube intro and outro</h3>
+                    <p>Greetings Dear Reader , HDK design is 6+ years experience in animation field and if your looking for an attractive youtube intro and outro then you are on right place. I also offer other services too regarding to animation and if you want anything other ( Intro and Outro ) kindly discuss with me in inbox.</p>
+  </div>
+            </div>
+			 <div class="card">
+                <div class="icon">
+				<i class="fas fa-solid fa-bookmark"></i>
+                </div>
+                <div class="info">
+                    <h3>social media post </h3>
+                    <p>Looking for someone to design creative post for your social media? you are at the right place! social media is best way of marketing nowadays, lets's beat your competitor with some attractive and creative design. </p>
+  </div>
+            </div>
+				 <div class="card">
+                <div class="icon">
+                    <i class="fas fa-solid fa-file"></i>
+                </div>
+                <div class="info">
+                    <h3>flayer design</h3>
+                    <p>I'll construct business top notch flayer design, posters, sale sheets
+
+I will design a Professional Business or Event flyer, real-estate, party flayers, postcard, pricelist, door hanger, banner, brochure and yard sign in 24 hours turnaround, and you'll get a Single-sided or Double-sided design with Print ready file and a Source file. All designs include a commercial use license. </p>
+  </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+		 <div class="title3">
+		 <h3 class="title3">Logo & Brand Identity</h3>
+		 </div>
+		
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=12uHqqc1PcSTlEXU0bfD7r6Yh9e64J6DB" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-2.fna.fbcdn.net/v/t39.30808-6/316256599_700490624839284_5080915263982437403_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFaFHwjLDcYDSOSVLd89IjwqWYN2n92BLepZg3af3YEtzvHErUNtAaSLxqx-4jVCacJltsAGC_LG9Pqb-qsNLSS&_nc_ohc=eChiTnj7yY8AX-IqYhs&_nc_ht=scontent.frba2-2.fna&oh=00_AfArkkqGNOnyMVj7X_pQJhFeqRUnJbKbv2LmYWNlLAvaMg&oe=63834D47">
+					</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-2.fna.fbcdn.net/v/t39.30808-6/316411782_700490591505954_4914753022886617012_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFeWmVhKfVi7iKVUJMl2h8FPpp4IpYsHrI-mngiliwesiJrSV8j8Stst1OlkYb-fNR7RqZHE4CVy_AdK3oITT-K&_nc_ohc=PxkENEgrwToAX91Cz2a&_nc_ht=scontent.frba2-2.fna&oh=00_AfB8HCIMHBlLAutJsojDlVpubkGxXVT483dURIEVbNG7aQ&oe=638414CF" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=183x29uGKXU3u_Ken6H_9-pGFbQaOXMnW">
+					</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1mpUBC2qEHNlQb28_xqBC4UziX3yzR6BJ">
+					</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1zGVG6y0bqCBBzK5IOAyPkzIO6oH6-g2y">
+					</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1ouw5kVIRmM302BeApbQD-Pu3AfcOfGWm">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1UTzve7fDyCG5-ue7I5I9rJAunnq3Mbl0">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1_bD6pT-ZR_oCIaU4QgGbOKeRUhVk0KnO">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1Qq3Jwfw3vahp9iHRd3-YZKqswtFRmRXG">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1JWo9I646QLQtZYHqRxAJU02_EPMg1HRc">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1iGMQrkt7Fw8LWPhPbrtx7nf1xqy7ER_M">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Logo</p>
+                    <strong class="project-title">
+                        <span>logo design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			
+                    </strong>
+                </div>
+            </div>
+			<d
+                    </strong>
+                </div>
+            </div>
+                <di
+                    </strong>
+                </div>
+            </div>
+			
+            
+            </div>
+        </div>
+    </section>
+	
+	
+	 <section class="projects" id="projects">
+      
+		 <div class="title3">
+		 <h3 class="title3">video editing</h3>
+		 </div>
+		
+        <div class="content">
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://assets-global.website-files.com/61841eeeb196d8bb217a08c2/61f995203f212993ea6793ff_1%20Video%20Editing.jpg">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Video</p>
+                    <strong class="project-title">
+                        <span>video editing</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+	
+	
+	
+	 <section class="projects" id="projects">
+      
+		 <div class="title3">
+		 <h3 class="title3">Business Cards & Stationery</h3>
+		 </div>
+		
+        <div class="content">
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-1.fna.fbcdn.net/v/t39.30808-6/316409965_700518484836498_4340448555072885151_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFu16MtBdldytiEz0yQk4piYMKhiSRLnLxgwqGJJEucvE-iiYvEUYyrbXyd4ixx4cJoFoa5yHeUJVBEl220uHGa&_nc_ohc=fipSAPmbMvsAX9zGI84&_nc_ht=scontent.frba2-1.fna&oh=00_AfDKwq21_SORdOdGVC_ih3W30TSDB9Mmzi101Kn5O3dX2A&oe=6383200B">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Business Cards</p>
+                    <strong class="project-title">
+                        <span>Business Cards</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            	<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1PuRjhpq26Sorj0QNvQbm43ZPvkxUsgLV">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Business Cards</p>
+                    <strong class="project-title">
+                        <span>Business Cards</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>	<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-2.fna.fbcdn.net/v/t39.30808-6/316209063_700518421503171_2053604923174115463_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeESxkNLAEzfUvEKURxNWxMBQl_ObyFN_rhCX85vIU3-uE8uG8aAXZrZtK7xLXDxoF9xS2ZtNCmH6rk7iams7yL8&_nc_ohc=7sxS1ZciA1cAX9EiJ2z&_nc_ht=scontent.frba2-2.fna&oh=00_AfCXKF3T5BhphafSr52I3f2s1xRWaOQIWiYpynkTS9xe1Q&oe=6383C820">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Business Cards</p>
+                    <strong class="project-title">
+                        <span>Business Cards</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>	<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-1.fna.fbcdn.net/v/t39.30808-6/316288462_700518398169840_4717739983865184652_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEOlak0syA8j6SUwatQg74JFWWPxmRutbQVZY_GZG61tM9eehsZPCX4I77oDEuumoW4QqXbGIonrC2Z_KkO15I_&_nc_ohc=n7qnkfCzVV0AX_PrzYB&_nc_ht=scontent.frba2-1.fna&oh=00_AfBMvOvMxhGkM_1Q0sPcpxflAFz_KZmoqQJcZqD5tsqG6w&oe=638335B0">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">Business Cards</p>
+                    <strong class="project-title">
+                        <span>Business Cards</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>	<
+                <div 
+                    </strong>
+                </div>
+            </div>	
+			
+          </div>
+        
+    </section>
+	
+	
+	 <section class="projects" id="projects">
+      
+		 <div class="title3">
+		 <h3 class="title3">youtube thumbnail</h3>
+		 </div>
+		
+        <div class="content">
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-2.fna.fbcdn.net/v/t39.30808-6/316806811_703142204574126_8153141966234034827_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHv3_JYE4RxLdGyMVMMVvv-WArrMrplhMdYCusyumWEx08wF-uOshsCNMX5loQ8-bAG1CpZK7wLPxfb1N4bNzJl&_nc_ohc=XBmsF_mMWMYAX_eWu3N&_nc_ht=scontent.frba2-2.fna&oh=00_AfB61uYajeSe-4zG7bZs-eo7E-e_q9zsfMukF8lTaOQ3uQ&oe=63829CAF">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">youtube thumbnail</p>
+                    <strong class="project-title">
+                        <span>youtube thumbnail</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-2.fna.fbcdn.net/v/t39.30808-6/316802430_703142367907443_1530751489065682905_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeECMxFw4zBJVDLU0vCQ48xeOsxCCW2Q2pU6zEIJbZDalQUNuCxahlF0-Shg814VpLVwH5jI-6K56hSecyqzB9OZ&_nc_ohc=XlfPLzEJTQwAX8PW5YJ&_nc_ht=scontent.frba2-2.fna&oh=00_AfBaJ_SQgA3rVEjfa0BZHi-IsG1KZwMx1XvOxzZUIp_7eQ&oe=63825ADA">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">youtube thumbnail</p>
+                    <strong class="project-title">
+                        <span>youtube thumbnail</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-1.fna.fbcdn.net/v/t39.30808-6/316802011_703142254574121_1053226248664710277_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE8om5H2ig3Ootag2yUESFORni7woGjjMJGeLvCgaOMwvtpHCu_S262eIZ84WESW7_p8nXOmeafKhVL62QvI9Za&_nc_ohc=CK7E8gBVSSoAX81susv&_nc_ht=scontent.frba2-1.fna&oh=00_AfCr1TnWu0cwje40l4YwzYZVKoD3IZuTAyBAx8nyr7ijOw&oe=6383258E">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">youtube thumbnail</p>
+                    <strong class="project-title">
+                        <span>youtube thumbnail</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-1.fna.fbcdn.net/v/t39.30808-6/316829166_703142294574117_5564582329250505351_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF3X-b0cSXFN2eZjBdpDDvlaIpUR2YEiDFoilRHZgSIMTbyagFLSQBfzn3rHj0sh59H3iMByMsdsTGHhrqpLWwa&_nc_ohc=LFyBaMkBnzkAX_MAEn_&_nc_ht=scontent.frba2-1.fna&oh=00_AfAf4GywNpjceAXJUSxOcu2jG0lUgdZr5IBZnLk0se5hWw&oe=6382F2D1">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">youtube thumbnail</p>
+                    <strong class="project-title">
+                        <span>youtube thumbnail</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+	
+	
+	 <section class="projects" id="projects">
+      
+		 <div class="title3">
+		 <h3 class="title3">youtube intro and outro</h3>
+		 </div>
+		
+        <div class="content">
+			<div class="project-card">
+                <div class="project-image">
+				    <iframe src="https://www.youtube.com/embed/HwccH65a9rE" title="Youtube Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+                <div class="project-info">
+                    <p class="project-category">youtube intro</p>
+                    <strong class="project-title">
+                        <span>youtube intro</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			
+			<div class="project-card">
+                <div class="project-image">
+				<iframe src="https://www.youtube.com/embed/cw4IGeZ9_bo" title="YouTube Outro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+                  </div>
+                <div class="project-info">
+                    <p class="project-category">youtube outro</p>
+                    <strong class="project-title">
+                        <span>youtube outro</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+	
+	
+	
+	 <section class="projects" id="projects">
+      
+		 <div class="title3">
+		 <h3 class="title3">social media post </h3>
+		 </div>
+		
+        <div class="content">
+			<div class="project-card">
+                <div class="project-image">
+				                    <img src="https://scontent.frba2-2.fna.fbcdn.net/v/t39.30808-6/316235535_700643864823960_5913945773710901086_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHPliJ_AHTnKKojlnEP4fxD7wVS5lN7SbvvBVLmU3tJu9uTEklwRQRXCNvip6penfOEoYH9XOnz3rc0RGBRDTiX&_nc_ohc=LL-KLqNoTNwAX_qxPO_&tn=omrmWNw7sRD3zfCQ&_nc_ht=scontent.frba2-2.fna&oh=00_AfASptyIe9TKy7UwcGDW_YAaI635cAi94tDMWB4A-Epbfg&oe=6383C172">
+
+				</div>
+                <div class="project-info">
+                    <p class="project-category">instagram video </p>
+                    <strong class="project-title">
+                        <span>instagram video</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-2.fna.fbcdn.net/v/t39.30808-6/316210121_700654074822939_7863706351167192967_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGyjoVyMgO-5wJs5yogehWs06DC6vZZCDnToMLq9lkIOVePpQpjXDuGhkoYPNWo_2-OtwupUiXMBVcGGI7FrLKu&_nc_ohc=udJY-TCZHqUAX-Sy0oy&_nc_ht=scontent.frba2-2.fna&oh=00_AfDXz56heBvc7PaQ4IZtBSKM8zqtukDeilRpQPxJAW3H7Q&oe=6383B490">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">instagram post</p>
+                    <strong class="project-title">
+                        <span>instagram post</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+	
+	
+	 <section class="projects" id="projects">
+      
+		 <div class="title3">
+		 <h3 class="title3">flayer design</h3>
+		 </div>
+		
+        <div class="content">
+			<div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1UaXQ3_tF1EoAxtuxl8se0inI6kYpuzCt">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">flayer design</p>
+                    <strong class="project-title">
+                        <span>flayer design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://scontent.frba2-2.fna.fbcdn.net/v/t39.30808-6/316263189_700656491489364_8604878212830913537_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGOzS9b0ZcCKg8MDnT1nlTm-8qcv9GnSrD7ypy_0adKsMwDfiS5sugr6x65FamXVHlaGeZAWDZ7mrMLdtNyi4jk&_nc_ohc=cO3nbNXXAKwAX_1wUZj&_nc_ht=scontent.frba2-2.fna&oh=00_AfBsuQ5ILnMfONh23QSWXR5EQxTMrUgaYP_AjWdwJjUPAQ&oe=6383F56F">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">flayer design</p>
+                    <strong class="project-title">
+                        <span>flayer design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div><div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1jZFdPTmDNXbquRc0sxOmqz_MwZ55bnmY">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">flayer design</p>
+                    <strong class="project-title">
+                        <span>flayer design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div><div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1Qw5DrrfUdtJs3ZHsuOO01pdoNzgg77O5">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">flayer design</p>
+                    <strong class="project-title">
+                        <span>flayer design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div><div class="project-card">
+                <div class="project-image">
+                    <img src="https://drive.google.com/uc?id=1FCf14KXdUDfZxKr2Mq3XRFsRuzqve2s2">
+				</div>
+                <div class="project-info">
+                    <p class="project-category">flayer design</p>
+                    <strong class="project-title">
+                        <span>flayer design</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+	
+	
+	
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone  & whatsapp</h3>
+                    <p>+212 6 04 73 52 89</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>simohadikid49@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>M.Hdk design</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+			<a href="#><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/graphic.designer_hdk?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCdU4UmRDZkQOrdBtg-aU3kw"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
